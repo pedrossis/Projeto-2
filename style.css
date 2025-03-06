@@ -159,3 +159,36 @@ nav img:last-child {
     margin: 2.4rem auto;
     flex-wrap: wrap;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.4rem 3.2rem;
+}
+
+footer p {
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--text-color-secundary);
+}
+
+.links {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--text-color-secundary);
+    line-height: 150%;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    padding: 4px;
+    transition: all .2s ease-in-out;
+}
+
+.links a:hover {
+    background-color: lightgray;
+    color: black;
+}

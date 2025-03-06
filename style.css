@@ -15,4 +15,136 @@
     --shape-transparency: rgba(255, 255, 255, 0.56);
     --text-color-primary: #313131;
     --text-color-secundary: #6C6C6C;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--surface-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 3.2rem 2.4rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    width: 325px;
+    color: var(--text-color-secundary);
+}
+
+nav img:first-of-type {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-top: 4px;
+    transition: background-color .2s ease-in-out;
+}
+
+nav img:first-of-type:hover {
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.575);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    font-size: 1.6rem;
+}
+
+nav ul li {
+    padding: 4px;
+    line-height: 150%;
+}
+
+nav img:last-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 3.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+    width: 592px;
+    height: 176px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.about-content h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 125%;
+    color: var(--text-color-primary);
+}
+
+.about-content p {
+    font-size: 1.4rem;
+    line-height: 170%;
+    color: var(--text-color-secundary);
+}
+
+.info {
+    width: 280px;
+    height: 104px;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.location p {
+    font-size: 1.4rem;
+    color: var(--text-color-secundary);
+    line-height: 170%;
+}
+
+.countries {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.countries p {
+    font-size: 1.4rem;
+    color: var(--text-color-secundary);
+    line-height: 170%;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.photos p {
+    font-size: 1.4rem;
+    color: var(--text-color-secundary);
+    line-height: 170%;
 }
